@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+"""the apps we need"""
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'backend',
 ]
+"""the apps we need"""
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
